@@ -7,7 +7,6 @@ const IconHotel = () => {
 
     useEffect(() => {
         const box = gRef.current.getBBox();
-        console.log(box);
 
         svgRef.current.setAttribute("viewBox", [box.x, box.y, box.width, box.height]);
     }, []);
