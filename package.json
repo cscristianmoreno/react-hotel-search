@@ -2,7 +2,7 @@
   "name": "hotel-search",
   "homepage": "https://cscristianmoreno.github.io/react-hotel-search/#",
   "version": "0.1.0",
-  "proxy": "http://nodejs-hotel-search.vercel.app/",
+  "proxy": "https://nodejs-hotel-search.vercel.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
