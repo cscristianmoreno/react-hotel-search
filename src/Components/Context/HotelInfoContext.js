@@ -22,7 +22,7 @@ export const HotelInfoProvider = ({children}) => {
 
         axios({
             method: "POST",
-            url: "https://nodejs-hotel-search.vercel.app/",
+            url: "https://nodejs-hotel-search.vercel.app/api/",
             params: {
                 "size": 300,
                 "offset": 0
