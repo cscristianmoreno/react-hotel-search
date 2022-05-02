@@ -1,0 +1,98 @@
+.class_features_item_description_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+
+.class_features_item_description_title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    background-color: #e0e0e0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b7dfdf;
+    font-size: 33px;
+    font-weight: bolder;
+    color: #2b2a2a;
+}
+
+.class_features_item_description_title span  {
+    font-family: "Open Sans", sans-serif;
+}
+
+.class_features_item_description_title i {
+    margin-left: 150px;
+}
+
+.class_features_item_description_information_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class_features_item_description_information {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.class_features_item_description_image {
+    height: 500px;
+    width: 100%;
+}
+
+.class_features_item_description_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.class_features_item_description_text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.class_features_item_description_text_title {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.class_features_item_description_text_border {
+    border-style: solid;
+    margin-top: 20px;
+    border-width: 1px;
+    border-color: #b7dfdf !important;
+}
+
+.class_features_item_description_text_body {
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.class_features_item_description_items_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-weight: 500;
+    color: #4e4e4e;
+    font-weight: 400;
+}
+
+.class_features_item_description_items {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.class_features_item_description_items i {
+    margin-right: 10px;
+}

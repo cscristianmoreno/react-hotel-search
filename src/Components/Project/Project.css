@@ -1,0 +1,59 @@
+.class_project_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.class_project_title {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.class_project_project_description {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #4b4b4b;
+}
+
+.class_project_description_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 25px;
+}
+
+.class_project_description_container a {
+    text-decoration: none;
+}
+
+.class_project_description_text_visualized {
+    color: #2e82ff;
+    text-decoration: none;
+}
+
+.class_project_skills_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.class_skill_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.class_skill_container span {
+    color: #353535;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.class_skill_container svg {
+    width: 75px;
+    height: 75px;
+}

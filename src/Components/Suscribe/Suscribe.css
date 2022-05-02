@@ -1,0 +1,39 @@
+.class_suscribe_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.class_suscribe_title {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #2e2d2d;
+    width: 70%;
+    text-align: center;
+}
+
+.class_suscribe_color {
+    color: gray;
+}
+
+.class_suscribe_input_container {
+    display: flex;
+    width: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.class_suscribe_input_container input {
+    padding: 12px;
+    width: 100%;
+}
+
+.class_suscribe_input_container button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}

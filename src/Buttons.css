@@ -1,0 +1,32 @@
+.class_button {
+    border: none;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 500;
+    width: 175px;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none !important;
+}
+
+.class_button:disabled {
+    background-color: #8ee2a7;
+    cursor: not-allowed;
+}
+
+.class_button_primary {
+    background-color: #2e82ff;
+}
+
+.class_button_primary:hover {
+    background-color: #73a8f7;
+}
+
+.class_button_secondary {
+    background-color: #2bb855;
+}
+
+.class_button_secondary:hover:enabled {
+    background-color: #67cc85;
+}

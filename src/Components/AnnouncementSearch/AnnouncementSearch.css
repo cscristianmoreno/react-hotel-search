@@ -1,0 +1,34 @@
+.class_announcement_search_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class_announcement_title {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.class_announcement_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.class_announcement_text {
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+}
+
+.class_announcement_image_container {
+    display: flex;
+    width: 35%;
+    margin-top: 50px;
+}
+
+.class_announcement_image {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 100%;
+}

@@ -1,0 +1,99 @@
+.class_features_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.class_features_subtitle {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 25px;
+    color: gray;
+    font-size: 20px;
+}
+
+.class_features_image_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.class_features_image_container .class_features_image {
+    width: 25%;
+    height: 300px;
+    filter: opacity(0.7);
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.class_features_image img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.class_features_image:hover {
+    filter: opacity(1);
+}
+
+.class_features_image:hover img {
+    transform: scale(1.25);
+}
+
+.class_features_image_description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    transition: 0.25s;
+    opacity: 0;
+}
+
+.class_features_image:hover .class_features_image_description {
+    height: 25%;
+    opacity: 1;
+}
+
+.class_features_description_title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.class_features_description_title i { 
+    margin-right: 5px;
+}
+
+.class_features_description_subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-left: 30px;
+    color: gray;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.class_features_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #494848;
+}
+
+.class_features_footer span {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}

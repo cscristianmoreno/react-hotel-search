@@ -1,0 +1,19 @@
+.class_body_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}
+
+.class_body_container svg {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+.class_body_container svg path {
+    fill: #7f44ec;
+}

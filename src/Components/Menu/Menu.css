@@ -1,0 +1,131 @@
+.class_main_menu {
+    width: 100%;
+    background-color: #fafafa;
+    height: 75px;
+    box-shadow: 0 0 10px #000;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.class_menu_normal {
+    display: flex;
+}
+
+.class_menu_responsive {
+    display: none;
+}
+
+.class_menu_fake {
+    height: 75px;
+}
+
+.class_menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    align-items: center;
+    width: 100%;
+}
+
+.class_menu_items {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+}
+
+.class_menu_items a {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #636262;
+    height: 100%;
+}
+
+.class_menu_title {
+    display: flex;
+    justify-content: center;
+    color: #fc5555;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    height: 100%;
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+
+.class_menu_title svg {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.class_menu_title svg g {
+    border-style: solid;
+}
+
+.class_menu_title svg #icon_menu_logo {
+    fill: #047dc4;
+    transition: 0.25s;
+}
+
+.class_menu_title svg #icon_menu_text {
+    fill: #015586;
+    transition: 0.25s;
+}
+
+.class_menu_title svg:hover path {
+    fill: #80b1fa !important;
+}
+
+.class_menu_title:hover {
+    color: #ff8989;
+}
+
+.class_submenu_container {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 225px;
+    margin-top: 75px;
+    top: 0;
+    background-color: white;
+    cursor: default;
+    border-top-style: solid;
+    border-color: rgb(77, 77, 77);
+    z-index: 1;
+    padding: 10px;
+}
+
+.class_submenu_display {
+    display: flex;
+}
+
+.class_menu_items .class_submenu_container a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #4b4b4b;
+    transition: 0.5s;
+    padding: 10px;
+    margin: 0;
+}
+
+.class_menu_items_position {
+    color: #007bff !important;
+}
+
+.class_menu_items .class_submenu_container a:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.class_submenu_container i {
+    margin-right: 7px;
+}
