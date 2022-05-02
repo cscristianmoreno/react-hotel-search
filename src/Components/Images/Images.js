@@ -11,8 +11,8 @@ const Images = () => {
 
     const ARRAY_HEADER = [
         { title: "RESERVA", subtitle_first: "SIMPLIFICAMOS TU BÚSQUEDA", subtitle_second: "Emprendé hacia tu rumbo y busca tu lugar ideal", image: hotel_1 },
-        { title: "ACCESIBILIDAD", subtitle_first: "PRECIOS ACCESIBLES", subtitle_second: "Disfrutá de los mejores hoteles al mejor precio", image: hotel_2 },
-        { title: "COMODIDAD", subtitle_first: "DISFRUTÁ DE TUS VACACIONES", subtitle_second: "Disfrutá de las mejores comodidades", image: hotel_3 },
+        { title: "ACCESIBILIDAD", subtitle_first: "PRECIOS ACCESIBLES", subtitle_second: "Disfrutá de los mejores hoteles en todo el mundo", image: hotel_2 },
+        { title: "COMODIDAD", subtitle_first: "DISFRUTÁ DE TUS VACACIONES", subtitle_second: "Disfrutá de las mejores comodidades, pasatiempos, y más", image: hotel_3 },
     ]
 
     const imagePrevios = () => {
