@@ -18,8 +18,8 @@ const Icons = () => {
 
             <div className="class_icon_title_container">
                 <span className="class_icon_title">ESPECIALIDADES MÉDICAS</span>
-                <span className="class_icon_description">Gestioná tu agenda y reservas online de citas médicas.</span>
-                <span className="class_icon_description">Administración de ficha médica integrada y gestión de obras sociales y pre-pagas.</span>
+                <span className="class_icon_description">Hoteles que brindan covertura médica.</span>
+                <span className="class_icon_description">Covertura médica a través de fichas integradas, gestión de obras sociales y mucho más para tu mejor estadía.</span>
             </div>
             </div>
 
@@ -27,9 +27,9 @@ const Icons = () => {
             <i className="fas fa-bus"/>
 
             <div className="class_icon_title_container">
-                <span className="class_icon_title">¿PREOCUPACIONES? NO HAY PROBLEMA</span>
-                <span className="class_icon_description">Digitilizá y administrá los cupos de tus recorridos.</span>
-                <span className="class_icon_description">Conocé la información de tus pasajes, reporte de deudas, pagos y sus cobranzas. Gestioná de forma automática todo acerca de tus pasajes.</span>
+                <span className="class_icon_title">TRANSPORTE</span>
+                <span className="class_icon_description">Hoteles que brindan transporte.</span>
+                <span className="class_icon_description">Conocé hoteles en todo el mundo que brindan transporte para promocionar el turismo en distintos lugares claves de esa región.</span>
             </div>
             </div>
 
@@ -48,7 +48,7 @@ const Icons = () => {
             <div className="class_icon_title_container">
                 <span className="class_icon_title">GYM / SPINNING / CROSSFIT</span>
                 <span className="class_icon_description">
-                    ¿Te apasiona el GYM? Gestioná los mejores hoteles con los mejores gimnasios al mejor precio.
+                    Hoteles que brindan gimnasios a sus reservadores a un precio muy accesible y de la mejor manera.
                 </span>
                 </div>
             </div>
@@ -59,7 +59,7 @@ const Icons = () => {
             <div className="class_icon_title_container">
                 <span className="class_icon_title">SPA / MASAJES</span>
                 <span className="class_icon_description">
-                    ¿Día agotador? No hay problema! Podrás acceder a diferentes variedad de hoteles que ofrecen servicios de SPA a sus clientes.
+                    ¿Día agotador? No hay problema! Podrás acceder a diferentes variedad de hoteles que ofrecen servicios de SPA a sus reservadores.
                 </span>
                 </div>
             </div>
@@ -79,9 +79,9 @@ const Icons = () => {
             <i className="fas fa-table-tennis"/>
 
             <div className="class_icon_title_container">
-                <span className="class_icon_title">CANCHAS DE TENIS / PADDLE / FÚTBOL</span>
+                <span className="class_icon_title">DIVERSIÓN Y MUCHO MÁS</span>
                 <span className="class_icon_description">
-                    Podrás acceder a hoteles que brindan diferentes tipos de distracciones para hacer aún más lujoso tu estadía. Además podrás ver las reservas de las mismas.
+                    Hoteles que brindan diferentes tipos de distracciones en el momento que quieras a la hora que quieraspara hacer aún más lujosa tu estadía.
                 </span>
             </div>
             </div>
