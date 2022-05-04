@@ -65,7 +65,7 @@ const Menu = () => {
             }
         }
 
-        console.log(path);
+        window.scrollTo(0, 0);
     });
 
     const addFeaturesRef = (ev) => {
